@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+   
+  
+<style>
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.columngal {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1 {text-align: center;
+     font-size: 40px;
+	 color: blue;}
+	 h2{
+	 text-align: center;
+	 }
+p {  line-height: 1.8;
+    text-align: justify;
+    font-family: 'Courier New', monospace;}
+img {
+  border: 5px solid orange;
+  
+}
+body {
+  font-family: Arial, sans-serif;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: green;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+p { text-align: justify;
+}	 
+
+/* Create two equal columns that floats next to each other */
+</style>
+</head>
+<body>
+
+<ul>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+	  <li><a href="about.html">About</a></li>
+      
+
+      
+</ul>
+
+<H1>   </H1>
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img\k1.jpg"  class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="img\khanda.jpg" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src=" img\k1.jpg"  class="d-block" style="width:100%">
+    </div>
+	<div class="carousel-item">
+      <img src=" img\khanda.jpg"  class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<div class="container-fluid mt-3">
+  <h3></h3>
+  <p></p>
+</div>
+
+
+
+
+
+<section class="my-4">
+<div class ="py-5 ">
+
+<h2 class="text-center" ><font color="darkred"> ਇਤਿਹਾਸ</b></font></h2>  
+ 
+
+ 
+</div> 
+</font>
+
+<div class="container-fluid">
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-12">
+	<br>
+		<img src="img\tengurus.jpg"  height = "685" width="700">
+	</div>
+	
+	<div class="col-lg-6 col-md-6 col-12">
+		
+		<p class="py-3" style = "font-family:courier,arial,helvetica;" text-align: justify; > ਸਿੱਖ ਧਰਮ ਦਾ ਜਨਮ ਦੱਖਣੀ ਏਸ਼ੀਆ ਦੇ ਪੰਜਾਬ ਖੇਤਰ ਵਿੱਚ ਹੋਇਆ ਸੀ, ਜੋ ਹੁਣ ਭਾਰਤ ਅਤੇ ਪਾਕਿਸਤਾਨ ਦੇ ਮੌਜੂਦਾ ਰਾਜਾਂ ਵਿੱਚ ਆਉਂਦਾ ਹੈ। ਉਸ ਸਮੇਂ ਇਲਾਕੇ ਦੇ ਮੁੱਖ ਧਰਮ ਹਿੰਦੂ ਅਤੇ ਇਸਲਾਮ ਸਨ।
+
+ਸਿੱਖ ਧਰਮ 1500 ਈਸਵੀ ਦੇ ਆਸਪਾਸ ਸ਼ੁਰੂ ਹੋਇਆ, ਜਦੋਂ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਨੇ ਹਿੰਦੂ ਧਰਮ ਅਤੇ ਇਸਲਾਮ ਤੋਂ ਬਿਲਕੁਲ ਵੱਖਰਾ ਧਰਮ ਸਿਖਾਉਣਾ ਸ਼ੁਰੂ ਕੀਤਾ।
+
+ਨੌਂ ਗੁਰੂਆਂ ਨੇ ਨਾਨਕ ਦਾ ਅਨੁਸਰਣ ਕੀਤਾ ਅਤੇ ਅਗਲੀਆਂ ਸਦੀਆਂ ਵਿੱਚ ਸਿੱਖ ਧਰਮ ਅਤੇ ਭਾਈਚਾਰੇ ਦਾ ਵਿਕਾਸ ਕੀਤਾ।ਨੌਂ ਗੁਰੂਆਂ ਨੇ ਨਾਨਕ ਦਾ ਅਨੁਸਰਣ ਕੀਤਾ ਅਤੇ ਅਗਲੀਆਂ ਸਦੀਆਂ ਵਿੱਚ ਸਿੱਖ ਧਰਮ ਅਤੇ ਭਾਈਚਾਰੇ ਦਾ ਵਿਕਾਸ ਕੀਤਾ।
+
+
+ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ਨੇ ਸਿੱਖ ਜਗਤ ਦੀ ਰਾਜਧਾਨੀ ਵਜੋਂ ਅੰਮ੍ਰਿਤਸਰ ਦੀ ਸਥਾਪਨਾ ਪੂਰੀ ਕੀਤੀ, ਅਤੇ ਸਿੱਖ ਧਰਮ ਗ੍ਰੰਥ ਦੀ ਪਹਿਲੀ ਅਧਿਕਾਰਤ ਪੁਸਤਕ, ਆਦਿ ਗ੍ਰੰਥ ਦਾ ਸੰਕਲਨ ਕੀਤਾ।
+
+ਹਾਲਾਂਕਿ, ਅਰਜਨ ਦੇ ਸਮੇਂ ਦੌਰਾਨ ਸਿੱਖ ਧਰਮ ਨੂੰ ਰਾਜ ਦੁਆਰਾ ਇੱਕ ਖ਼ਤਰੇ ਵਜੋਂ ਦੇਖਿਆ ਗਿਆ ਸੀ ਅਤੇ ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਨੂੰ ਅੰਤ ਵਿੱਚ 1606 ਵਿੱਚ ਉਹਨਾਂ ਦੇ ਵਿਸ਼ਵਾਸ ਲਈ ਫਾਂਸੀ ਦੇ ਦਿੱਤੀ ਗਈ ਸੀ।ਛੇਵੇਂ ਗੁਰੂ ਹਰਗੋਬਿੰਦ ਜੀ ਨੇ ਕੌਮ ਦਾ ਫੌਜੀਕਰਨ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰ ਦਿੱਤਾ ਤਾਂ ਜੋ ਉਹ ਕਿਸੇ ਵੀ ਜ਼ੁਲਮ ਦਾ ਟਾਕਰਾ ਕਰ ਸਕਣ। ਸਿੱਖਾਂ ਨੇ ਆਪਣੇ ਧਰਮ ਨੂੰ ਕਾਇਮ ਰੱਖਣ ਲਈ ਕਈ ਲੜਾਈਆਂ ਲੜੀਆਂ।
+
+ਸਿੱਖ ਫਿਰ ਮੁਗ਼ਲ ਬਾਦਸ਼ਾਹ ਔਰੰਗਜ਼ੇਬ ਦੇ ਸਮੇਂ ਤੱਕ ਰਾਜਨੀਤਿਕ ਸ਼ਾਸਕਾਂ ਦੇ ਨਾਲ ਰਿਸ਼ਤੇਦਾਰੀ ਵਿੱਚ ਸ਼ਾਂਤੀ ਨਾਲ ਰਹਿੰਦੇ ਸਨ, ਜਿਨ੍ਹਾਂ ਨੇ ਆਪਣੀ ਪਰਜਾ ਨੂੰ ਇਸਲਾਮ ਕਬੂਲ ਕਰਨ ਲਈ ਤਾਕਤ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਸੀ।
+
+ਔਰੰਗਜ਼ੇਬ ਨੇ ਨੌਵੇਂ ਗੁਰੂ, ਤੇਗ ਬਹਾਦਰ ਨੂੰ 1675 ਵਿੱਚ ਗ੍ਰਿਫਤਾਰ ਕੀਤਾ ਅਤੇ ਫਾਂਸੀ ਦੇ ਦਿੱਤੀ।
+
+ਗੁਰੂਆਂ ਤੋਂ ਬਾਅਦ
+
+
+1799 ਵਿਚ ਰਣਜੀਤ ਸਿੰਘ ਨੇ ਲਾਹੌਰ 'ਤੇ ਕਬਜ਼ਾ ਕੀਤਾ, ਅਤੇ 1801 ਵਿਚ ਪੰਜਾਬ ਨੂੰ ਇਕ ਸੁਤੰਤਰ ਰਾਜ ਵਜੋਂ ਸਥਾਪਿਤ ਕੀਤਾ, ਆਪਣੇ ਆਪ ਨੂੰ ਮਹਾਰਾਜਾ ਬਣਾਇਆ।
+
+ਭਾਵੇਂ ਉਹ ਇੱਕ ਸ਼ਰਧਾਲੂ ਸਿੱਖ ਸੀ, ਉਸਨੇ ਮੁਸਲਮਾਨਾਂ ਅਤੇ ਹਿੰਦੂਆਂ ਦੇ ਨਾਲ-ਨਾਲ ਧਾਰਮਿਕ ਕੰਮਾਂ ਵਿੱਚ ਵੀ ਹਿੱਸਾ ਲਿਆ।
+
+
+
+
+ਸਿੱਖਾਂ ਦਾ ਅੰਸ਼ਿਕ ਤੌਰ 'ਤੇ ਅੰਗਰੇਜ਼ਾਂ ਨਾਲ ਚੰਗਾ ਰਵੱਈਆ ਰਿਹਾ ਕਿਉਂਕਿ ਉਹ ਆਪਣੇ ਆਪ ਨੂੰ ਅੰਗਰੇਜ਼ਾਂ ਦੇ ਭਾਈਵਾਲਾਂ ਨਾਲੋਂ ਰਾਜ ਦੀ ਪਰਜਾ ਸਮਝਦੇ ਸਨ।
+
+ਅੰਗਰੇਜ਼ਾਂ ਨੇ ਆਪਣੇ ਆਪ ਨੂੰ ਇੱਕ ਅਨੁਕੂਲ ਧਾਰਮਿਕ ਸਪਿਨ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕੀਤੀ ਜਦੋਂ ਉਹਨਾਂ ਨੇ ਗੁਰਦੁਆਰਿਆਂ ਦੇ ਨਿਯੰਤਰਣ ਵਿੱਚ ਆਪਣੀ ਪਸੰਦ ਦੇ ਕੇ ਸਿੱਖ ਧਾਰਮਿਕ ਸਥਾਪਨਾ ਨੂੰ ਆਪਣੇ ਕਬਜ਼ੇ ਵਿੱਚ ਲਿਆ।
+
+1919 ਵਿੱਚ ਅੰਮ੍ਰਿਤਸਰ ਦੇ ਕਤਲੇਆਮ ਨਾਲ ਸਿੱਖਾਂ ਅਤੇ ਅੰਗਰੇਜ਼ਾਂ ਦਰਮਿਆਨ ਚੰਗੇ ਸਬੰਧਾਂ ਦਾ ਅੰਤ ਹੋ ਗਿਆ।
+		
+		
+</p>
+			
+	</div>
+	
+</div>
+
+</div>
+
+</section>
+<section class="my-1">
+<div class ="py-5 ">
+<h2 class="text-center"><font color="darkred" font-family: Arial, sans-serif; > ਗੈਲਰੀ</font></h2>   
+</div> 
+	<div class ="container-fluid">
+		<div class ="row">
+		<div class="col-lg-4 col-md-4 col-12">
+			<img src=" img\nanak1.jpg" class="img-fluid pb-4">
+			<h4 class="text-center"> ਸ਼੍ਰੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ</h4>
+			<p><button class="button" onclick="location.href='Nanak.html'">ਇਤਿਹਾਸ</button></p>
+						
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src=" img\2nd1.jpg" class="img-fluid pb-4">
+			<h4 class="text-center"> ਸ੍ਰੀ ਗੁਰੂ ਅੰਗਦ ਦੇਵ ਜੀ</h4>
+			<p><button class="button"onclick="location.href='Angad.html'">ਇਤਿਹਾਸ</button></p>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="img\angadj.jpg" class="img-fluid pb-4">
+			<h4 class="text-center"> ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ</h4>
+			<p><button class="button"onclick="location.href='Amardas.html'">ਇਤਿਹਾਸ</button></p>
+			
+			</div>
+				
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="img\ramdasj.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ</h4>
+			<p><button class="button"onclick="location.href='ramdaas.html'">ਇਤਿਹਾਸ</button></p>
+           </div>
+			
+			
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="img\arjunj.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ</h4>
+			<p><button class="button"onclick="location.href='arjan.html'">ਇਤਿਹਾਸ</button></p>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="img\hargobindj.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">ਗੁਰੂ ਹਰਗੋਬਿੰਦ ਸਾਹਿਬ ਜੀ</h4>
+			<p><button class="button"onclick="location.href='hargobind.html'">ਇਤਿਹਾਸ</button></p>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="img\harraij.jpeg" class="img-fluid pb-4">
+			<h4 class="text-center"> ਸ਼੍ਰੀ ਹਰਿਰਾਏ</h4>
+			<p><button class="button"onclick="location.href='harrai.html'">ਇਤਿਹਾਸ</button></p>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="img\harkrishanj.jpg" class="img-fluid pb-4">
+			<h4 class="text-center"> ਸ਼੍ਰੀ ਹਰਿਕ੍ਰਿਸ਼ਨ </h4>
+			<p><button class="button"onclick="location.href='harkrishan.html'">ਇਤਿਹਾਸ</button></p>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="img\tegbahadurj.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ ਜੀ </h4>
+			<p><button class="button"onclick="location.href='teg bahadar.html'">ਇਤਿਹਾਸ</button></p>
+			</div>
+		
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="img\gurugobindj.jpg" class="img-fluid pb-4">
+			<h4 class="text-center"> ਸ਼੍ਰੀ ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਜੀ</h4>
+			<p><button class="button"onclick="location.href='gobind.html'">ਇਤਿਹਾਸ</button></p>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="img\granth.jpg" class="img-fluid pb-4">
+			<h4 class="text-center"> ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ </h4>
+			<p><button class="button"onclick="location.href='granth sahib.html'">ਇਤਿਹਾਸ</button></p>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="img\darbarsahib.jpg" class="img-fluid pb-4">
+			<h4 class="text-center"> ਦਰਬਾਰ ਸਾਹਿਬ </h4>
+			<p><button class="button"onclick="location.href='darbaar.html'">ਇਤਿਹਾਸ</button></p>
+			</div>
+		</div>
+	</div>
+</section>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<footer>
+	<p class="p-3 bg-warning text-black text-center"><font color="black"><b>ਵਾਹਿਗੁਰੂ ਜੀ ਦਾ ਖਾਲਸਾ, ਵਾਹਿਗੁਰੂ ਜੀ ਦੀ ਫਤਿਹ     </b></p>
+</footer>	
+		</body>
+</html>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
